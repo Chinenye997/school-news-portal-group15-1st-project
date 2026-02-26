@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSG Digital Academy - News Portal</title>
+</head>
+<body>
+    <!----------- HEADER -------------->
+    <header>
+        <h1>ENSG Digital Academy </h1>
+        <P>Empowering Our Generation Of Digital Innvators</P>
+    </header>
+
+    <!--------------- NAVIGATION -------------->
+    <nav>
+        <ul>
+            <li><a href="#Hero & Announcement Section" aria-current="page">Hero & Announcement Section</a></li>
+            <br>
+                <li><a href="#News Articles Section">News Articles Section</a></li>
+                <br>
+                <li><a href="#Events Table">Events Table</a></li>
+                <br>
+            <li><a href="#Enrollment Form">Enrollment Form</a></li>
+        </ul>
+    </nav>
+
+    <!---------------- HERO SECTION ----------------->
+    <section class = "hero">
+        <div class = "main">
+            <h2> Welcome to ENSG Digital Academy</h2>
+            <p>ENSG Digital Academy, powered by the Enugu State Government, is driving the vision that “code is the new coal.” Through practical training and innovation-focused programs, we are shaping the next generation of tech leaders in Enugu and beyond.</p>
+            <img src="/ensgDigitalAcademy.png" alt="ENSG Digital Academy" width="800">
+        </div>
+
+        <!---------- Announcement ----------->
+       <aside class ="announcements">
+            <h3>Latest Announcements</h3>
+
+            <div>
+                <h4>Admissions Now Open</h4>
+                <p>Applications for the 2026 academic session are now available.</p>
+            </div>
+
+            <div>
+                <h4>Tech Bootcamp Registration</h4>
+                <p>Enroll in our 8-week intensive coding bootcamp.</p>
+            </div>
+
+            <div>
+                <h4>Innovation Week</h4>
+                <p>Students will showcase projects and digital solutions.</p>
+            </div>
+        </aside>
+
+    </section>
+
+    <!-------------- NEWS SECTION ------------------>
+    <section id="News">
+        <h3>SCHOOL NEW</h3>
+
+        <article>
+            <h3>AI Lab Officially Opened</h3>
+            <p>Published on <time datetime="2026-02-10">February 10, 2026</time></p>
+            <p>The ENSG Digital Academy proudly inaugurated its new Artificial Intelligence Laboratory equipped with modern computing systems.</p>
+            <p>The lab will support student research projects and hands-on machine learning training programs.</p>
+            <a href="#">Read more</a>
+        </article>
+
+        <article>
+            <h3>Students Win National Coding Competition</h3>
+            <p>Published on <time datetime="2026-01-25">January 25, 2026</time></p>
+            <p>A team of ENSG students secured first place in the National Coding Championship.</p>
+            <p>The competition tested advanced problem-solving and software engineering skills.</p>
+            <a href="#">Read more</a>
+        </article>
+
+        <article>
+            <h3>Cybersecurity Awareness Week</h3>
+            <p>Published on <time datetime="2026-01-15">January 15, 2026</time></p>
+            <p>The academy hosted a week-long cybersecurity awareness event featuring industry experts.</p>
+            <p>Students participated in workshops covering ethical hacking and data protection.</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+
+    <!--------------- EVENTS TABLE ------------------->
+    <section id="Events">
+        <h3>Upcoming Events</h3>
+
+        <table border="1">
+            <caption>ENSG Digital Academy Event Schedule</caption>
+
+            <thead>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Orientation Day</td>
+                    <td>March 1, 2026</td>
+                    <td>Main Auditorium</td>
+                    <td>Upcoming</td>
+                </tr>
+
+                <tr>
+                    <td>Web Development Workshop</td>
+                    <td>March 10, 2026</td>
+                    <td>Lab 2</td>
+                    <td>Open</td>
+                </tr>
+
+                <tr>
+                    <td>AI Conference</td>
+                    <td>March 1, 2026</td>
+                    <td>Conference Hall</td>
+                    <td>Upcoming</td>
+                </tr>
+
+                <tr>
+                    <td>Hackathon 2026</td>
+                    <td>April 5, 2026</td>
+                    <td>Innovation Center</td>
+                    <td>Registration Open</td>
+                </tr>
+
+                <tr>
+                    <td>Graduation Ceremony</td>
+                    <td>June 30, 2026</td>
+                    <td>Main Auditorium</td>
+                    <td>Scheduled</td>
+                </tr>
+
+                <tfoot>
+                <tr>
+                    <td colspan="4">Total Events: 5</td>
+                </tr>
+            </tfoot>
+            </tbody>      
+        </table>
+    </section>
+
+    <!------------------ ENROLLMENT FORM -------------------->
+    <section id="Enrollment">
+        <h3>Student Enrollment Form</h3>
+        <form action="#" method="post">
+            <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">FullName:</label>
+            <input type="" name="fullname" id="fullname" placeholder="Enter you fullname.....">
+
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="Email@example.com">
+
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="+234906464466">
+
+            <br>
+            <label>Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+
+             <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="prefer" name="gender" value="Prefer not to say">
+                <label for="prefer">Prefer not to say</label><br>
+        </fieldset>
+
+
+        <br>
+        <fieldset>
+            <legend>Course Information</legend>
+
+            <label for="course">Course of interest:</label><br>
+            <select id="course" name="course">
+               <option>Web Development</option>
+               <option>Data Seience</option>
+               <option>Artificial Intelligence</option>
+               <option>Cybersecurity</option>
+            </select><br><br>
+
+            <label for="message">Additional Information:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+
+            <input type="submit" value="submit">
+        </fieldset>
+        </form>
+    </section>
+
+    <!---------------FOOTER-------------->
+    <footer>
+        <p>&copy;  2026 ENSG Digital Academy. All Rights Reserved.</p>
+
+        <dl>
+            <dt>Address:</dt>
+            <dd>Enugu State SME Tech </dd>
+
+            <dt>Phone:</dt>
+            <dd>+123 906 3556 32</dd>
+
+            <dt>Email:</dt>
+            <dd>School@newportal.com</dd>
+        </dl>
+    </footer>
+</body>
+</html>
